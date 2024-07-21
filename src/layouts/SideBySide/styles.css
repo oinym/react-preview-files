@@ -1,0 +1,20 @@
+.side-by-side {
+    grid-column: 2/2;
+    min-height: 50%;
+    padding: 10%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+.side-by-side>div {
+    border: 1px solid black;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: start;
+    min-width: 30%;
+    padding: 5px;
+    max-width: 40%;
+}

@@ -1,0 +1,9 @@
+iframe {
+    border: 1px solid black;
+    max-width: -webkit-fill-available;
+
+}
+
+canvas {
+    max-width: -webkit-fill-available;
+}
